@@ -9,7 +9,7 @@ const Settings = () => {
       <div className={styles.header} onClick={() => setShown(state => !state)}>
         Click to open / close
       </div>
-      {isShown && <div className={styles.settings}>InputSettings</div>}
+      {isShown && <div className={styles.settings}>Some element that dynamically takes up space</div>}
     </div>
   );
 };
